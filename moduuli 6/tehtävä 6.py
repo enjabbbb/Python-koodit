@@ -1,6 +1,4 @@
 import math
-
-
 def calculate_unit_price(diameter_cm, price_euros):
     diameter_m = diameter_cm / 100
     radius_m = diameter_m / 2
