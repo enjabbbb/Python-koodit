@@ -1,52 +1,38 @@
-# muuttujat
-x = 10
-nimi = "Olga"
-pi = 3.14
+print("Hello world")
 
-# peruslaskut
+# Lista
 
-3 + 4
-10 - 4
-5 * 6
-8 / 2
+luvut = [1,2,3]
+print(luvut[0]) #1
+print(luvut[1])
+print(luvut[2])
 
-# tulostaminen
-print("osaan koodata")
-print("kyllä tämä tästä")
-print("harjoitus tekee mestarin")
+#ehtolauseet if, else
 
-# if ehtolauseet
+ika = 15
 
-ikä = 17
-
-if ikä >= 18:
-    print("olet täysi-ikäinen")
+if ika >= 15:
+    print("olet 0-14-vuotias")
 else:
-    print("olet alaikäinen")
+    print("Olet yli 15-vuotias")
 
-    # for-silmukka
-
+#toistorakenteet, for-silmukka
 for i in range(5):
     print(i)
 
-# while-silmukka
+# while silmukka
 
 luku = 0
-while luku < 3:
+while luku < 5:
     print(luku)
     luku += 1
 
-# listat
+#funktiot, uudelleenkätettäviä koodipaloja
 
-hedelmat = ["omena" , "banaani" , "päärynä"]
-print(hedelmat[0])  # omena
+def tervehdi(nimi):
+    print("Huomenta, " + nimi)
+    tervehdi("Carrie")
 
-
- # funktiot
-def tervehdys(nimi):
-    print("Hei" , nimi )
-
-tervehdys(nimi)
-
+    
 
 
