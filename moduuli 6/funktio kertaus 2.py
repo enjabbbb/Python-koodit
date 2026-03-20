@@ -46,8 +46,6 @@ print(tulos)
 #Tee funktio keskiarvo(lista), joka palauttaa listan keskiarvon.
 #Tulosta keskiarvo pääohjelmassa.
 
-
-
 def keskiarvo(lista):
     if len(lista) == 0:
         return 0
